@@ -7,8 +7,9 @@ const DEFAULT_PROPERTIES = {
 
 
 class Dragon {
-  constructor({birthday, nickname}) {
+  constructor({birthday, nickname} = {}) {
     //  We can make this map or rather an object by surrounding the arguments itself with a pair of curly braces.
+    // if the properties are missing from the object we set it to a default argument indicate above with the = {}
 
     this.birthday = birthday || DEFAULT_PROPERTIES.birthday;
     // in no birthday or nickname value is defind it will set to defualt using the Or indication using the two Pipe symbols 
