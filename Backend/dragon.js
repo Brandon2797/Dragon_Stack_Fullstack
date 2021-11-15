@@ -5,4 +5,4 @@ class Dragon {
   }
 }
 
-module.export = Dragon;
+module.exports = Dragon;
